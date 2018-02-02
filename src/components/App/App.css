@@ -1,0 +1,28 @@
+.App {
+  text-align: center;
+  height: 100%;
+  width: 100%;
+  background-color: #f2f2f2;
+}
+
+.App-header {
+  text-align: left;
+  background-color: #474747;
+  height: 50px;
+  padding: 10px;
+  color: #add8e6;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.section-search-form {
+  border: 1px solid pink;
+  position: absolute;
+  top: 70px;
+  right: 80px;
+  height: 80%;
+  width: 260px;
+  text-align: center;
+}
