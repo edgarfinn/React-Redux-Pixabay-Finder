@@ -18,5 +18,5 @@ export default() => {
       searchOptions[currentIndex] = searchOptions[randomIndex];
       searchOptions[randomIndex] = temporaryValue;
     }
-    return searchOptions[0];
+    return `${searchOptions[0]}`;
   }

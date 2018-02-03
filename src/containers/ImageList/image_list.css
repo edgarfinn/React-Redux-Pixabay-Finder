@@ -1,0 +1,29 @@
+.image-list {
+  position: relative;
+  bottom: 0;
+}
+
+.images-row {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+}
+
+.image-list-item {
+  position: relative;
+  display: inline-block;
+  border: 1px solid #dfdfdf;
+}
+
+.image-list-item img {
+  display: flex;
+  align-items: center;
+  border: 10px solid white;
+  justify-content: center;
+  height: auto;
+  width: auto;
+}
+
+.image-list-item:not(:last-child) {
+  margin-right: 50px;
+}

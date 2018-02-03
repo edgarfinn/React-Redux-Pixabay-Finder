@@ -3,6 +3,7 @@
   height: 100%;
   width: 100%;
   background-color: #f2f2f2;
+  box-sizing: border-box;
 }
 
 .App-header {
@@ -17,12 +18,32 @@
   font-size: 1.5em;
 }
 
+.page-content {
+  box-sizing: border-box;
+  padding-top: 10px;
+  padding-left: 10%;
+  padding-right: 10%;
+  height: calc(100% - 70px);
+}
+
+.section-image-detail {
+  background-color: white;
+  display: inline-block;
+  position: relative;
+  height: 350px;
+  width: 500px;
+}
 .section-search-form {
-  border: 1px solid pink;
-  position: absolute;
-  top: 70px;
-  right: 80px;
-  height: 80%;
+  position: relative;
+  float: right;
   width: 260px;
-  text-align: center;
+}
+.section-image-list {
+  position: relative;
+  box-sizing: border-box;
+  clear: both;
+  height: 190px;
+  width: 100%;
+  padding: 20px;
+  margin-top: 20px;
 }

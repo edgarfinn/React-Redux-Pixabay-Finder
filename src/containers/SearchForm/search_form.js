@@ -1,5 +1,4 @@
 import React, {Component} from 'react';
-import {bindActionCreators} from 'redux';
 import {Field, reduxForm } from 'redux-form';
 import {connect} from 'react-redux';
 import { fetchImages } from '../../actions/index';
@@ -27,8 +26,7 @@ class SearchForm extends Component {
   }
 
   render() {
-    console.log(this);
-    const {handleSubmit, pristine, reset, submitting} = this.props
+    const {handleSubmit, pristine, submitting} = this.props
     const colorRadioList = ["red", "yellow", "green", "purple"].map((color) => {
       const selected = this.state.selectedColor === color;
       return (
@@ -64,5 +62,6 @@ class SearchForm extends Component {
     )
   }
 }
+
 
 export default reduxForm({form: 'colourfulPictures'})(connect(null, { fetchImages })(SearchForm));
