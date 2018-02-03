@@ -11,7 +11,7 @@ class App extends Component {
     return (
       <div className="App">
         <header className="App-header">
-          <h1 className="App-title">React-Redux Pixabay Search Engine</h1>
+          <h1 className="App-title">React-Redux Pixabay Image Finder</h1>
         </header>
         <div className="page-content">
           <section className="section-image-detail">
