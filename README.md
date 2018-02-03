@@ -20,7 +20,7 @@ $ echo REACT_APP_ACCESS_TOKEN=*123456789* > .env
 $ npm start
 ```
 
-In your browser, you should then find the application running at localhost://3000
+In your browser, you should then find the application running at localhost:3000/
 
 Users select a colour from the four square options, and the application then randomly selects from one of the following search terms:
 
