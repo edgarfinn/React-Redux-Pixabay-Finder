@@ -42,4 +42,11 @@ man, mountain, state, ocean, country, building, cat, airline, wealth, happiness,
 
 - Some colour + search-term combinations yield no result at all, therefore crashing (eg: purple airline).
 
-  - Suggested solution: test for every colour + search-term combination. For those that do not return a response status code of 200, remove the search-term from the list of options when the colour-selected is that of the failing test.
+  - Suggested solution:
+    - test for every colour + search-term combination. For those that do not return a response status code of 200, remove the search-term from the list of options when the colour-selected is that of the failing test.
+    - provide error message for empty response data lists in case of any other unforseen corner cases.
+    - ensure that the image components do not try to render, and reducers do not attempt to update state if image data is not returned from the api.
+
+
+- No tests!
+  - Due to a time constraints, unit testing was neglected. Given a little more familiarity and experience with jest, enzyme and testing react and redux components, this should be a priority in any future iterations.
