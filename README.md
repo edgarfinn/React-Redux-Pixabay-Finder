@@ -15,8 +15,8 @@ A simple colour-thematic image finder. Users select and colour using the coloure
 $ git clone https://github.com/edgarfinn/React-Redux-Pixabay-Finder.git
 $ cd React-Redux-Pixabay-Finder/
 $ npm install
-$ echo REACT_APP_ACCESS_TOKEN=*123456789* > .env
-# *123456789* should be the API key provided
+$ echo REACT_APP_ACCESS_TOKEN=123456789 > .env
+# 123456789 should be the API key provided
 $ npm start
 ```
 
